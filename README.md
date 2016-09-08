@@ -23,3 +23,5 @@ once the async response to fetch the download url returns
 we can call window.open on this remoteWindow with our download url
 this call magically retains user level privileges, hence no popup blocker.
 This works for any number of files at the same time just create a new instance for each.
+
+See code for api and usage
