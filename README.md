@@ -28,4 +28,4 @@ This works for any number of files at the same time just create a new instance f
 
 * 1) get a new downloader instance ```var asyncDl = asyncDownloader();```
 * 2) in some async callback call download with your href```asyncDl.download(href);```
-* 3) no matter what happens call cleanup ```asyncDl.cleanup();``
+* 3) no matter what happens call cleanup ```asyncDl.cleanup();``1
